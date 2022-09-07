@@ -5,3 +5,6 @@ from django.shortcuts import render
 
 def home(request):
 	return render(request,'base/home.html')
+
+def thankyou(request):
+	return render(request,'base/thank you page.html')

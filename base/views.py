@@ -8,3 +8,6 @@ def home(request):
 
 def thankyou(request):
 	return render(request,'base/thank you page.html')
+
+def home2(request):
+	return render(request,'base/home2.html')

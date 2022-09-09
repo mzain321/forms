@@ -177,18 +177,6 @@ h2 span {
 
 
 
-/* ******************************************************
-    Live Demo
-*********************************************************/
-
-
-
-
-
-/* ******************************************************
-    Responsive Grids
-*********************************************************/
-
 .rt-container {
     margin: 0 auto;
     padding-left:12px;
@@ -298,8 +286,9 @@ h2 span {
 }
 
 .survey-hr{
+
   margin:10px 0;
-  border: .5px solid #ddd;
+  border: .5px solid blue;
 }
 .star-rating {
    margin: 25px 0 0px;
@@ -455,10 +444,11 @@ span.scale-rating label:before
 
 
 
-	<form action="https://docs.google.com/forms/d/e/1FAIpQLSen6Pl1o6dnMeOo_vCuf_VEeprrkpmnOB2ujC6rLpHAMHlMrQ/formResponse" method="post" target="hiddenConfirm"  onsubmit="submitted=true">
+
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSdx15xHgz2K1I4ebCbIVBLl5ZV4cIUGnGmQv3FrM6WH2awtHg/formResponse" method="post" target="hiddenConfirm"  onsubmit="submitted=true">
 
 
-    <form action="https://docs.google.com/forms/d/e/1FAIpQLSen6Pl1o6dnMeOo_vCuf_VEeprrkpmnOB2ujC6rLpHAMHlMrQ/formResponse">
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSdx15xHgz2K1I4ebCbIVBLl5ZV4cIUGnGmQv3FrM6WH2awtHg/formResponse">
 
 		
 <div class="ScriptTop">
@@ -495,47 +485,30 @@ span.scale-rating label:before
        
 <div class="feedback">
 
-  
-<label class="label" for="entry.750623769"> ہمارے مطب سے کب سے وابستہ ہے</label><br/><br/>
- <input type="checkbox"  name="entry.750623769" value="ایک سال">
-<label for="vehicle1">ایک سال</label><br>
-<input type="checkbox"   name="entry.750623769" value="دو سال">
-<label for="vehicle2">دو سال</label><br>
-<input type="checkbox"   name="entry.750623769" value="تین سال">
-<label for="vehicle3">تین سال</label><br> 
+    <hr class="survey-hr">
 
-
-
-
-
-
-
+<label class="label" for="entry.1540342825"> ہمارے مطب سے کب سے وابستہ ہے</label><br/><br/>
+ <input type="checkbox"  name="entry.1540342825" value="ایک سال">
+<label for="1">ایک سال</label><br>
+<input type="checkbox"   name="entry.1540342825" value="دو سال">
+<label for="2">دو سال</label><br>
+<input type="checkbox"   name="entry.1540342825" value="تین سال">
+<label for="3">تین سال</label><br> 
 
    <div class="clear"></div> 
   <hr class="survey-hr">
-
-
 
   
 <label class="label" for="entry.2015390462">ہمارے ادارے سے  کیسے واقف ہوئے</label><br/><br/>
  <input type="checkbox"  name="entry.2015390462" value="سوشل میڈیا">
-<label for="vehicle1">سوشل میڈیا</label><br>
+<label for="1">سوشل میڈیا</label><br>
 <input type="checkbox"   name="entry.2015390462" value="رشتہ دار اور دوست">
-<label for="vehicle2">رشتہ دار اور دوست</label><br>
+<label for="2">رشتہ دار اور دوست</label><br>
 <input type="checkbox"   name="entry.2015390462" value="اخبار">
-<label for="vehicle3">اخبار</label><br> 
-
-
-
-
-
-
-
+<label for="3">اخبار</label><br> 
 
    <div class="clear"></div> 
   <hr class="survey-hr">
-
-
 
 <label  for="entry.1747016377"  class="label" >ہمارے ادارے کو دوسروں کی نسبت  کیسا پایا</label><br>
 <span class="star-rating">
@@ -565,7 +538,7 @@ span.scale-rating label:before
 
 
 
-<label  for="entry.925400491" class="label" >آپ حکیم صاحب کی تشخیص کردہ دوائی سے کتنا مطمئن ہیں</label><br>
+<label  for="entry.925400491" class="label" >ادویات کی پیکنگ سے کس قدر مطمئن ہے</label><br>
 <span class="star-rating">
   <input type="radio" name="entry.925400491" value="1"><i></i>
   <input type="radio" name="entry.925400491" value="2"><i></i>
@@ -594,8 +567,6 @@ span.scale-rating label:before
   <div class="clear"></div> 
   <hr class="survey-hr">
 
-
-
 <label  for="entry.407002399" class="label" >ادویات کی کوالٹی سے کس قدر مطمئن ہیں</label><br>
 <span class="star-rating">
   <input type="radio" name="entry.407002399" value="1"><i></i>
@@ -610,11 +581,8 @@ span.scale-rating label:before
   <hr class="survey-hr">
 
 
-<form method="post" action="#action-url">
 
-
-<label for="entry.1970575553" class="label" >ادارے کے دیگر ملازمین کے رویے سے کس قدر مطمئن ہیں</label><br>
-  
+<label for="entry.1970575553" class="label" >ادارے کے دیگر ملازمین کے رویے سے کس قدر مطمئن ہیں</label><br>  
 <span class="star-rating">
   <input type="radio" name="entry.1970575553" value="1"><i></i>
   <input type="radio" name="entry.1970575553" value="2"><i></i>
@@ -623,38 +591,103 @@ span.scale-rating label:before
   <input type="radio" name="entry.1970575553" value="5"><i></i>
 </span>
 
+  <div class="clear"></div> 
+  <hr class="survey-hr"> 
 
+<label class="label" for="entry.750623769">علاج کی طوالت سے مطمئن ہیں</label><br/><br/>
+ <input type="checkbox"  name="entry.750623769" value="جی ہاں">
+<label for="1">جی ہاں </label><br>
+<input type="checkbox"   name="entry.750623769" value="نہیں">
+<label  for="2">نہیں</label><br>
 
+  <div class="clear"></div> 
+  <hr class="survey-hr"> 
+
+  <label for="entry.1689067941" class="label" >علاج کتنے عرصے سے جاری ہے</label><br><br>
+ <input type="checkbox"  name="entry.1689067941" value="چھے مہینے">
+<label for="1">چھے مہینے</label><br>
+<input type="checkbox"   name="entry.1689067941" value="ایک سال">
+<label for="2">ایک سال</label><br>
+<input type="checkbox"   name="entry.1689067941" value="اس سے کہیں زیادہ">
+<label for="3">اس سے کہیں زیادہ</label><br> 
+
+  <div class="clear"></div> 
+  <hr class="survey-hr"> 
+
+  <label for="entry.960140853" class="label" >بیماری کس قدر پرانی ہے</label><br><br>
+ <input type="checkbox"  name="entry.960140853" value="طویل المدتی">
+<label for="1">طویل المدتی</label><br>
+<input type="checkbox"   name="entry.960140853" value="قلیل المدتی">
+<label for="2">قلیل المدتی</label><br>
+
+  <div class="clear"></div> 
+  <hr class="survey-hr"> 
+
+<label class="label" for="entry.2071818743">دیگر اطباء  سے علاج کروایا یا نہیں</label><br/><br/>
+ <input type="checkbox"  name="entry.2071818743" value="جی ہاں">
+<label for="1">جی ہاں </label><br>
+<input type="checkbox"   name="entry.2071818743" value="نہیں">
+<label  for="2">نہیں</label><br>
+
+  <div class="clear"></div> 
+  <hr class="survey-hr"> 
+
+  <label for="entry.1313107019" class="label" >اس علاج کا کیسا نتیجہ نکلا</label><br>  
+<span class="star-rating">
+  <input type="radio" name="entry.1313107019" value="1"><i></i>
+  <input type="radio" name="entry.1313107019" value="2"><i></i>
+  <input type="radio" name="entry.1313107019" value="3"><i></i>
+  <input type="radio" name="entry.1313107019" value="4"><i></i>
+  <input type="radio" name="entry.1313107019" value="5"><i></i>
+</span>
+
+  <div class="clear"></div> 
+  <hr class="survey-hr"> 
+
+  <label for="entry.1093797476" class="label" >بیماری کی نوعیت کیا ہے / تھی</label><br><br>
+ <input type="checkbox"  name="entry.1093797476" value="طویل المدتی">
+<label for="1">طویل المدتی</label><br>
+<input type="checkbox"   name="entry.1093797476" value="قلیل المدتی">
+<label for="2">قلیل المدتی</label><br>
+
+  <div class="clear"></div> 
+  <hr class="survey-hr"> 
+
+  <label for="entry.349499540" class="label" >بیماری کیا ہے/  تھی</label><br><br>
+<textarea cols="30" name="entry.349499540" rows="2" style="100%"></textarea><br>
 
 
   <div class="clear"></div> 
   <hr class="survey-hr"> 
 
+  <label for="entry.1352100970" class="label" >کیا آپ دوسروں کو تجویز کرنا پسند کریں گے</label><br><br>
+ <input type="checkbox"  name="entry.1352100970" value="جی ہاں">
+<label for="1">جی ہاں </label><br>
+<input type="checkbox"   name="entry.1352100970" value="نہیں">
+<label  for="2">نہیں</label><br>
 
-<label   for="entry.349499540" class="label">کوئی اور تجاویز:</label><br/><br/>
+  <div class="clear"></div> 
+  <hr class="survey-hr"> 
 
-<textarea cols="30" name="entry.349499540" rows="3" style="100%"></textarea><br>
+  <label for="entry.830382042" class="label" >بیماری کون سی ہے یا تھی</label><br/><br/>  
+<textarea cols="30" name="entry.830382042" rows="2" style="100%"></textarea><br>
 
+
+  <div class="clear"></div> 
+  <hr class="survey-hr"> 
+
+<label   for="entry.549653167" class="label">کوئی اور تجاویز:</label><br/><br/>
+<textarea cols="30" name="entry.549653167" rows="3" style="100%"></textarea><br>
 <br>
-
-
-
-
 
   <div class="clear"></div> 
   <hr class="survey-hr">
-
   <div style="color:grey">
  
-
-
-
-
   <div class="clear"></div> 
 <input style="background:#43a7d5;color:#fff;padding:12px;border:0" type="submit" value="Submit">&nbsp;
 </form>
-                  </div>
-           
+                  </div>           
     		</div>
 		</div>
     </div>
@@ -662,11 +695,8 @@ span.scale-rating label:before
      
 
 
-    <!-- Analytics -->
+<h4 align="center">Created by Zain with &#128149; © 2022</h4>
 
 	</body>
 </html>
-
-
-
 

@@ -6,7 +6,7 @@ urlpatterns = [
 
 	path('',views.homenew),
 	path('thank you page.html',views.thankyou),
-	path('tabeeb',views.home2),
+	path('tabeeb',views.tabeebform),
 	path('new',views.home3),
 	path('old',views.home)
 

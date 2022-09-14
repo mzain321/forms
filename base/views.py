@@ -10,7 +10,7 @@ def thankyou(request):
 	return render(request,'base/thank you page.html')
 
 def tabeebform(request):
-	return render(request,'base/tabeebform.html.html')
+	return render(request,'base/tabeebform.html')
 
 
 def home3(request):

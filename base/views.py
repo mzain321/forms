@@ -18,3 +18,5 @@ def home3(request):
 
 def homenew(request):
 	return render(request,'base/homenew.html')
+def login(request):
+	return render(request,'base/signin.html')
